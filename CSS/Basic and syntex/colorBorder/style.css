@@ -1,0 +1,53 @@
+body{
+    background: #d89898;
+    background-image: url(https://sp.yimg.com/ib/th?&id=ODL.3c792221c08b47cce31b2dc9295b0484&w=200&h=107&c=4&dpr=2&rs=1);
+}
+
+.main{
+    background: #c6e3cd;
+    /* color: rgb(10, 226, 64); */
+}
+
+#card{
+    background: #927ccf;
+    width: 500px;
+    height: 300px;
+
+    h3{
+        color: blue;
+    }
+}
+
+#card p {
+    background: #8bdcdf;
+    color: #4308e6;
+    border: 4px groove green;
+    height: 250px;
+    overflow: auto;
+}
+
+#clickbtn{
+    background: #c8aae6;
+    border: 2px solid white;
+    border-color: #4308e6;
+    border-style: solid;
+    border-radius: 3px;
+    box-shadow: 2px 1px 0px 2px gray;
+}
+
+#clickbtn:hover{
+    background: #be9898;
+    color: brown;
+}
+
+#clickbtn:active{
+    background: #64c7bf;
+    color: aqua;
+}
+
+#clickbtn1{
+    background: #d6e0af;
+    color:rgb(146, 237, 8);
+    border: green;
+
+}

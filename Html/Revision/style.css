@@ -1,22 +1,22 @@
-/* *{
-    background: #ecb6b6;
+ /* *{
+    background: #ede7e7;
 } */
 
 
-h1{
-    background: #e1b8b8;
+/* h1{
+    background: #eeeaea;
 }
 
 /* .head{
     background: #c4727f;
 } */
 
-.field{
+/* .field{
     background-color: rgb(212, 135, 137);
 }
 
 .field1{
-    background-color: rgb(233, 210, 232);
+    background-color: rgb(243, 157, 238);
 }
 
 .field2{
@@ -33,4 +33,12 @@ h1{
 
 .field5{
     background-color:  rgb(214, 69, 207);
+}  */
+
+.head{
+    background:rgb(235, 225, 207);
+    color: orange;
+    width: 500px;
+    height: auto;
+    scrollbar-width: auto;
 }
