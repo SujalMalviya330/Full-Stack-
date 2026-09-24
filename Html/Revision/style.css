@@ -35,10 +35,67 @@
     background-color:  rgb(214, 69, 207);
 }  */
 
-.head{
+/* .head{
     background:rgb(235, 225, 207);
     color: orange;
     width: 500px;
     height: auto;
     scrollbar-width: auto;
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    /* border: 1px solid;
+    border-color: black; */
+    margin: 20px 20px;
+
+}
+
+.head1 {
+    background: #a1d5e9;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+}
+
+.head2 {
+    display: flex;
+    
+    gap: 25px;
+}
+
+.about-me{
+    
+    text-align: center;
+    margin: 30px 20px;
+
+   .ab{
+        font-size: xx-large;
+    }
+    
+    .p-about{
+    
+        margin: 10px 440px;
+        width: 600px;
+        font-size: large;
+    } 
+}
+
+.project{
+    text-align: center;
+    font-size: xx-large;
+    margin: 40px 20px;
+
+    .img{
+        margin: 10px;
+    }
 }
