@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    background: #d46e6e;
 }
+
 
 #outer {
     border: 1px solid black;
@@ -15,7 +17,7 @@
     height: 150px;
 }
 
-.d{
+/* .d{
     width: 50px;
     height: 50px;
     border: 1px solid black;
@@ -24,15 +26,17 @@
     font-size: xx-large;
 
     
-}
+} */
 
 #grid-outer{
     border: 1px solid;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: center;
     row-gap: 50px;
-    column-gap: 50px;
+    column-gap: 100px;
+    background: #c49f9f;
+    
 }
 
 .gd{
@@ -40,9 +44,25 @@
     border-color: black;
     width: 100px;
     height: 200px;
-    background: #c6b0b0;
-    font-size: xx-large;
+    background: #483a3a;
+    margin: 20%;
+    padding: 20%;  
     box-shadow:gray;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 10px 10px 10px rgb(146, 137, 137);
+    #b{
+        margin-top: 70%;
+        height: 30px;
+        width: 50px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px rgb(23, 17, 17);
+
+    }
+}
+
+h1{
+    text-align: center;
+    margin: 10% 20%;
+
 }

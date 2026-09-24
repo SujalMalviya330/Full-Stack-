@@ -1,0 +1,41 @@
+#head {
+    background: #df7b7b;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 20px;
+
+    
+}
+
+#d{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+
+ }
+
+#b{
+    border: 2px solid;
+    height: 30px;
+    color: #0a06f3;
+    background: #908bd9;
+    border-color: #5d06f3;
+}
+
+#b1{
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+
+
+    border: 2px solid;
+    height: 30px;
+    color: #0a06f3;
+    background: #908bd9;
+    border-color: #5d06f3;
+
+}
