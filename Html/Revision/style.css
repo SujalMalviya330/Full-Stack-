@@ -1,47 +1,4 @@
- /* *{
-    background: #ede7e7;
-} */
 
-
-/* h1{
-    background: #eeeaea;
-}
-
-/* .head{
-    background: #c4727f;
-} */
-
-/* .field{
-    background-color: rgb(212, 135, 137);
-}
-
-.field1{
-    background-color: rgb(243, 157, 238);
-}
-
-.field2{
-    background-color: rgb(240, 199, 238);
-}
-
-.field3{
-    background-color: rgb(221, 163, 218);
-}
-
-.field4{
-    background-color: rgb(232, 152, 228);
-}
-
-.field5{
-    background-color:  rgb(214, 69, 207);
-}  */
-
-/* .head{
-    background:rgb(235, 225, 207);
-    color: orange;
-    width: 500px;
-    height: auto;
-    scrollbar-width: auto;
-} */
 
 *{
     margin: 0%;
@@ -49,14 +6,7 @@
 
 }
 
-h1{
-    color: brown;
-    text-align: center;
-    /* border: 1px solid;
-    border-color: black; */
-    margin: 20px 20px;
 
-}
 
 .head{
     position: sticky;
@@ -66,7 +16,7 @@ h1{
 .head1 {
     background: #a1d5e9;
     align-items: baseline;
-    display: flex;
+    display: gr;
     justify-content: space-between;
     padding: 20px 20px;
     
@@ -102,8 +52,20 @@ h1{
     margin: 40px 20px;
 
     .img{
-        margin: 10px;
+        margin: 40px 0px 0px 0px;
     }
+}
+
+.btn {
+    padding: 15px 40px;
+    border: 2px solid;
+    background: #e6b2b2;
+    border-color: red;
+    color: red;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+
+    
 }
 
 

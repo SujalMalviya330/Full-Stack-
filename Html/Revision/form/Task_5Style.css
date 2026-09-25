@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.field1{
+
+    /* display: grid ;
+    grid-template-columns: auto auto; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
