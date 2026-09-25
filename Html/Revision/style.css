@@ -58,12 +58,18 @@ h1{
 
 }
 
+.head{
+    position: sticky;
+    top: 10px;
+}
+
 .head1 {
     background: #a1d5e9;
     align-items: baseline;
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
+    
     
 }
 
@@ -99,3 +105,5 @@ h1{
         margin: 10px;
     }
 }
+
+
