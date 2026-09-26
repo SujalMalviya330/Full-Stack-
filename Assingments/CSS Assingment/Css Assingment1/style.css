@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    /* background: #1009df; */
+}
+
+.main{
+    display: flex;  
+    justify-content: center;
+    border: 2px solid;
+    border-color: black;
+    height: 400px;  
+    margin: 70px 200px 250px;
+    padding-bottom: 300px;
+    margin-bottom: 700px;
+    background: blue;
+}
+
+.sec1{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 7px;
+    width: 350px;
+    height: 400px;
+    margin: 250px 0px 100px;
+    background: white;
+
+    h3{
+        margin: 20px;
+        font-size: xx-large;
+        margin-bottom: 40px;
+        
+    }
+}
+.first-box{
+    margin: 25px;
+}
+
+.forget-password{
+    display: flex;
+    
+}
+
+.remember{
+    
+    display: flex;
+    justify-content: space-between;
+    .forget-password{
+        color: #0817f3;
+    }
+    
+}
+
+.loginbtn{
+    background: #0817f3;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 3px;
+    color: white;
+   
+}
+
+.footer{
+   
+    display: flex;
+    justify-content: center;
+    .sing{
+        color: #0817f3;
+    }
+}
+
+
+
+/* this is second part */
+
+
+.section2{
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 7px;
+    width: 350px;
+    height: 530px;
+    margin: 120px 0px 40px 50px;
+    background: white;
+    
+
+    h3{
+        
+        font-size: xx-large;
+        margin-bottom: 40px;
+        
+    }
+}
+
+.first-box{
+    margin: 25px;
+}
+
+
+.restartbtn{
+    background: #0817f3;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 3px;
+    color: white;
+   
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    .sing{
+        color: #0817f3;
+    }
+}

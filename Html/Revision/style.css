@@ -16,7 +16,7 @@
 .head1 {
     background: #a1d5e9;
     align-items: baseline;
-    display: gr;
+    display: flex;
     justify-content: space-between;
     padding: 20px 20px;
     
@@ -63,9 +63,7 @@
     border-color: red;
     color: red;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px gray;
-
-    
+    box-shadow: 2px 2px 2px gray; 
 }
 
 
