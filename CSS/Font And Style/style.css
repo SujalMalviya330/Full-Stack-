@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Noto+Sans+Cypriot&family=Playwrite+CU+Guides&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading{
+    font-family: "Archivo Black", sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.sub-heading{
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.discription span{
+    font-weight: 600;
+    color: aqua;
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 10px;
+}
+
+.pointer{
+    font-size: large;
+    font-weight: 700;
+    
+}
+
+ul{
+    margin-left: 30px;
+    list-style: "😂  ";
+    
+}
+
+ol{
+    margin-left: 30px;
+    list-style:lower-alpha;
+}
+
+footer{
+    background: #000;
+    color: aliceblue;
+    margin: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+ol li:first-child{
+    background: #d9a7a7;
+}
+
+ol li:last-child{
+    background: #9dacdc;
+}
+
+.p{
+      font-family: "Playwrite CU Guides", cursive;
+}
+
+.sub-heading2{
+    margin-top: 20px;
+
+}
