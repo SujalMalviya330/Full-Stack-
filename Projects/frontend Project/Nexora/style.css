@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+QLD+Hand:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px 20px 20px 20px;
+    padding: 0%;
+}
+
+header{
+    padding: 15px;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.head1 {
+    display: flex;
+    font-size: small;
+
+    h3{
+       margin-top: 10px;
+    }
+    
+    .getStart {
+        background: blue;
+        color: white;
+        width: 120px;
+        height: 40px;
+        border-radius: 12px;
+        font-size: 15px;
+        font-family: var(--n-font-display);
+    }
+
+}
+
+.section1{
+    width: 650px;
+}
+
+.starting{
+    font-family: "Montserrat", sans-serif;
+    color: blue;
+    font-size: small;
+}
+.head2{
+    font-size: x-large;
+    font-family: "Fredoka", sans-serif;
+    
+}
+.digital{
+    color: blue;
+}
+
+.head1-pera{
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
