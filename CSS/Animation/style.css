@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#hw{
+    border: 2px solid rgb(7, 215, 230);
+    width: 300px;
+    height: 2.5rem;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+    color: #06e933;
+    transition: width 2s;
+    background: #9cd5a8;
+    
+}
+
+#hw:hover{
+    border: 2px solid rgb(7, 215, 230);
+    width: 600px;
+    color: red;
+    background: #e6c9c9;
+    transition: width 2s;
+    
+    
+}
+
+/* #w{
+    background: #d08484;
+
+}
+
+#w::after{
+    content: "❤️";
+} */

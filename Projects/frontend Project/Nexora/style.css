@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+QLD+Hand:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    margin: 0px 20px 20px 20px;
+    margin: 0%;
     padding: 0%;
 }
 
+body{
+    background: #F1F1FF;
+    top: 50%;
+}
+
 header{
-    padding: 15px;
+    
     align-items: center;
     position: sticky;
     top: 0%;
 }
 
-.head{
+#head{
     display: flex;
     justify-content: space-between;
     font-family: "Josefin Sans", sans-serif;
+    font-size: larger;
+    background: #F0F1FF;
+    padding: 20px 100px;
+    
     
 }
 
 .head1 {
     display: flex;
-    font-size: small;
+    font-size: large;
+    gap: 45px;
+    text-decoration: none;
+    
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
 
     h3{
        margin-top: 10px;
@@ -41,25 +57,174 @@ header{
 
 .section1{
     width: 650px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 100px;
+    border: 2px solid black;
+
+   
+    
+    
 }
 
+
+
 .starting{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
     color: blue;
-    font-size: small;
+    font-size: 14px;
+    font-weight: 600
+    
 }
+
 .head2{
     font-size: x-large;
     font-family: "Fredoka", sans-serif;
+    margin: 20px 0px;
+
+    
+    h1{
+        font-weight: 800;
+        line-height: 1.15   ;
+        
+    }
+    
     
 }
+
+.head1-pera{
+    font-size: large;
+    color: rgb(113, 110, 110);
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 5px;
+    width: 500px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    
+}
+
+.start-btn{
+    
+    /* background:  #0d6efd; */
+    background: #2B57E5;
+    color: white;
+    width: 220px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+.explore-btn{
+    background: white;
+    width: 220px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    margin-left: 10px;
+    
+    
+}
+
+.min-image{
+    margin-top: 0px;
+}
+
+.image{
+    position: absolute;
+    right: 200px;
+}
+
+
+
 .digital{
     color: blue;
 }
 
-.head1-pera{
-    font-size: larger;
-    font-family: "Montserrat", sans-serif;
+/* Section - 2 */
+.section2{
+    
+    background: #FFFFFF;
+    padding: 30px 150px;
     
 }
+
+.sec2-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #767F92;
+    letter-spacing: 1px;
+}
+
+.sec2-points{
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: 900;
+    color: #B7BECA;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.section3{
+    
+    border: 2PX solid black;
+    height: 300PX;
+    background: #F7F9FC;
+    padding: 100px;
+    font-family: "Josefin Sans", sans-serif;
+
+    .sec3-pointer{
+        background: #EEF2FF;
+        color: #4881F3;
+        font-size: 13px;
+        font-weight: 600;
+        width: 150px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
+    .sec3-heading{
+        font-size: large;
+        margin-bottom: 20px;
+    }
+
+    .sec3-pera{
+        font-size: 20px;
+        width: 700px;
+        line-height: 30px;
+        color: #667085;
+    }
+
+    .Services{
+        position: absolute;
+        right: 120px;
+        margin-top: 20px;
+        
+        
+        a{
+            text-decoration: none;
+            color: #043efc;
+            font-weight: 600;
+        }
+    }
+
+
+}
+
+
+
+
+
 
