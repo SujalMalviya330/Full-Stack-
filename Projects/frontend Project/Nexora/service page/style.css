@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sec1-part1{
+    
+    padding: 100px 100px 0px 100px;
+    text-align: center;
+    background: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    h3{
+        margin-left: 725px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #043efc;
+        align-items: center;
+        text-align: center;
+        width: 250px;
+        padding: 8px;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: #EEF2FF;
+    }
+    h1{
+        padding: 30px 0px;
+        font-size: 45px;
+        font-weight: bolder; 
+    }
+
+    p{
+        line-height: 30px;
+        margin-left: 455px;
+        width: 800px;
+        font-size: 22px;
+        color: #667085;
+        letter-spacing: 1px;
+    }
+    
+}
+
+
+
+
+
+/* ================================== */
+
+.sec1-part2{
+    font-family: "Josefin Sans", sans-serif;
+}
+.cards{
+    
+    margin: 140px 140px 100px 140px;
+    height: 860px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 20px;
+    
+    
+
+        
+}
+
+.card{
+    width: 440px;
+    height: 320px;
+    padding: 40px;
+    align-items:end;
+    border-radius: 15px;
+    background: #FFFFFF;
+    
+
+    a{
+        margin-top: 20px;
+        line-height: 55px;
+        text-decoration: none;
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #667085;
+        font-size: x-large;
+    }
+    
+    p{
+        color: #667085;
+        line-height: 31px;
+        font-size: 17px;
+        font-size: x-large;
+    }
+
+    box-shadow:
+        0 4px 15px rgba(30, 50, 90, 0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(30, 50, 90, 0.08);;
+}
+
+.icon-blue{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    background: #EEF2FF;
+    color: #155EEF;
+    
+}
+
+.icon-purple{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    background: #F4F0FF;
+    color: #6941C6;
+    
+}
+
+.icon-green{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    background: #E7F9F0;
+    color: #12B76A;
+    
+}
+
+
+
+.section2{
+    padding: 140px 140px 100px 140px;
+    display: flex;
+    background: #F7F9FC;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 60px;
+}
+
+.sec2-left{
+    padding: 50px 0px;
+
+    h3{
+        font-size: 15px;
+        font-weight: 700;
+        color: #043efc;
+        
+        width: 220px;
+        padding: 8px;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: #EEF2FF;
+    }
+
+    h1{
+        padding: 30px 0px;
+        font-size: 45px;
+        font-weight: bolder; 
+    }
+
+    .sec2-pera{
+        line-height: 30px;
+        width: 800px;
+        font-size: 20px;
+        color: #667085;
+        letter-spacing: 1px;
+    }
+}
+.sec2-points{
+    
+    font-size: 20px;
+    color: #667085;
+    
+    line-height: 40px;
+    padding: 30px 0px;
+    .point-heding{
+        font-weight: bold;
+        color: black;
+    }
+    
+}
+.point-heding::before{
+    content: "✓";
+
+    padding: 10px;
+    border-radius: 50px;
+    color: #3255E2;
+    font-size: small;
+    background: #EEF2FF;
+}
+
+
+.sec2-img-right{
+    height: 615px;
+    width: 60vw;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+
+.ask-questions{
+    margin: 140px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+    details{
+        border: 1px solid black;
+        padding: 20px;
+        margin: 10px;
+    }
+}
+
+
+

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
 }
@@ -23,7 +23,7 @@
     transition: width 2s;
     
     
-}
+} */
 
 /* #w{
     background: #d08484;
@@ -33,3 +33,11 @@
 #w::after{
     content: "❤️";
 } */
+.image:hover {
+  transform: translateY(-10px);
+  transition: transform 1s;
+  .img {
+    transform: scale(1.2);
+    transition: transform 1s 1s;
+  }
+}
