@@ -451,3 +451,305 @@ social-links {
 
     font-size: 15px;
 }
+
+/* ????????????????????????????????????????? */
+
+.portfolio-section {
+    width: 100%;
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 0;
+
+    background: linear-gradient(
+        110deg,
+        #f8faff 0%,
+        #edf4ff 60%,
+        #d9e7ff 100%
+    );
+
+    overflow: hidden;
+}
+
+
+/* Small Label */
+
+.portfolio-label {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #171c2b;
+}
+
+.label-line {
+    width: 40px;
+    height: 4px;
+
+    display: inline-block;
+
+    background-color: #4778ff;
+    border-radius: 10px;
+}
+
+
+/* Main Heading */
+
+.portfolio-title {
+    font-size: clamp(40px, 4.5vw, 65px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+    color: #101626;
+}
+
+.portfolio-title span {
+    color: #3569f6;
+}
+
+
+/* Description */
+
+.portfolio-description {
+    max-width: 520px;
+
+    font-size: 17px;
+    line-height: 1.7;
+
+    color: #777f91;
+}
+
+
+/* Image */
+
+.portfolio-image img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+
+/* Tablet Responsive */
+
+@media (max-width: 991px) {
+
+    .portfolio-title {
+        font-size: 43px;
+    }
+
+    .portfolio-description {
+        font-size: 15px;
+    }
+
+    .portfolio-section {
+        padding: 50px 0;
+    }
+
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 767px) {
+
+    .portfolio-section {
+        padding: 45px 0 25px;
+    }
+
+    .portfolio-title {
+        font-size: 40px;
+        letter-spacing: -1.5px;
+    }
+
+    .portfolio-description {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .portfolio-image {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+/* PROJECT SECTION */
+
+.projects-section {
+    width: 100%;
+    padding: 30px 0 45px;
+    background: #ffffff;
+}
+
+
+/* CATEGORY BUTTONS */
+
+.category-btn {
+    padding: 10px 27px;
+    border: 1px solid #eeeeee;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #424a5b;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.category-btn:hover {
+    color: #ffffff;
+    background-color: #2165f5;
+    border-color: #2165f5;
+}
+
+.category-btn.active {
+    color: #ffffff;
+    background-color: #2165f5;
+    border-color: #2165f5;
+}
+
+
+/* PROJECT CARD */
+
+.project-card {
+    border: 1px solid #eeeeee;
+    border-radius: 13px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.09);
+}
+
+
+/* PROJECT IMAGE */
+
+.project-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* CARD BODY */
+
+.project-card .card-body {
+    padding: 17px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* CARD TITLE */
+
+.project-card .card-title {
+    margin-bottom: 7px;
+    color: #171b29;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* CARD DESCRIPTION */
+
+.project-card .card-text {
+    margin-bottom: 14px;
+    color: #737b8b;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* TECHNOLOGY BADGES */
+
+.tech-stack span {
+    padding: 7px 14px;
+    border-radius: 50px;
+    background-color: #edf3ff;
+    color: #3972e8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* VIEW PROJECT LINK */
+
+.project-link {
+    margin-top: auto;
+    color: #2465e8;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.project-link span {
+    margin-left: 5px;
+    font-size: 21px;
+    transition: margin-left 0.3s ease;
+}
+
+.project-link:hover {
+    color: #1046b5;
+}
+
+.project-link:hover span {
+    margin-left: 10px;
+}
+
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-card .card-title {
+        font-size: 18px;
+    }
+
+    .project-card .card-body {
+        padding: 15px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 576px) {
+
+    .projects-section {
+        padding: 25px 0;
+    }
+
+    .category-btn {
+        padding: 9px 16px;
+        font-size: 12px;
+    }
+
+    .project-image {
+        height: 210px;
+    }
+
+    .project-card .card-title {
+        font-size: 19px;
+    }
+
+    .project-card .card-text {
+        font-size: 14px;
+    }
+
+    .tech-stack span {
+        padding: 6px 11px;
+        font-size: 12px;
+    }
+
+}
