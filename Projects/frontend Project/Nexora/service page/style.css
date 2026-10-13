@@ -345,6 +345,7 @@ header{
 }
 
 .ask-questions{
+    
     margin: 140px;
     text-align: center;
     font-size: x-large;
@@ -353,7 +354,23 @@ header{
         border: 1px solid black;
         padding: 20px;
         margin: 10px;
+        background: #b9ebc9;
+        border-radius: 20px;
     }
+    .question{
+        
+    }
+    p{
+        text-align: center;
+        align-items: center;
+        background: rgb(240, 246, 230);
+        margin-left: 250px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid yellowgreen;
+        color: #04eb4d;
+    }
+
 }
 
 /* ============================================================ */
