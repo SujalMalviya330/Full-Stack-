@@ -376,6 +376,52 @@ line-height: 1.8;
 color: #667085;
 }
 
+
+.cta-section {
+width: 100%;
+padding: 90px 7%;
+background: white;
+}
+
+.cta-content {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+padding: 75px 6%;
+border-radius: 22px;
+background: linear-gradient(110deg, #122d63, #263f76 45%, #403852);
+color: white;
+}
+
+.cta-content h2 {
+margin: 0 0 15px;
+font-size: 36px;
+line-height: 1.2;
+font-weight: 800;
+color: #FFFFFF;
+}
+
+.cta-content p {
+margin: 0;
+color: #B8BBC7;
+font-size: 21px;
+line-height: 1.6;
+}
+
+.cta-button {
+flex-shrink: 0;
+height: 60px;
+width: 220px;
+border-radius: 15px;
+border: none;
+font-size: 17px;
+font-weight: 700;
+background: #2D55E2;
+color: #DCE7FD;
+}
+
 .site-footer {
 position: relative;
 width: 100%;

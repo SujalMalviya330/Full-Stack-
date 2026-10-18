@@ -16,60 +16,61 @@ body {
 }
 
 header {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background: white;
+width: 100%;
+position: sticky;
+top: 0;
+z-index: 99;
+background: white;
 }
 
 #head {
-    width: 100%;
-    min-height: 85px;
-    padding: 18px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 5%;
+background: white;
+gap: 25px;
 }
 
 #head h2 {
-    color: black;
-    font-size: 28px;
-    font-weight: 800;
+font-size: 28px;
+font-weight: 800;
+white-space: nowrap;
 }
 
 .head1 {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 15px;
+font-weight: 600;
 }
 
 .head1 a {
-    padding: 11px 13px;
-    color: #6f6a6a;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 600;
-    transition: 0.25s;
+text-decoration: none;
+color: #987777;
+padding: 10px 9px;
+border: 2px solid transparent;
+border-radius: 10px;
+white-space: nowrap;
 }
 
 .head1 a:hover {
-    background: #F1F1FF;
-    color: #17243d;
+color: black;
+background: #F1F1FF;
 }
 
 .getStart {
-    width: 145px;
-    height: 48px;
-    margin-left: 8px;
-    border: none;
-    border-radius: 10px;
-    background: #3030e7;
-    color: white;
-    font-size: 15px;
-    font-weight: 800;
-    cursor: pointer;
+background: rgb(48, 48, 231);
+color: white;
+width: 135px;
+height: 48px;
+font-weight: 800;
+border-radius: 12px;
+font-size: 16px;
+border: none;
+cursor: pointer;
 }
 
 
@@ -544,6 +545,53 @@ header {
     background: #5b98ed;
     transform: translateY(-3px);
 }
+
+
+.cta-section {
+width: 100%;
+padding: 90px 7%;
+background: white;
+}
+
+.cta-content {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+padding: 75px 6%;
+border-radius: 22px;
+background: linear-gradient(110deg, #122d63, #263f76 45%, #403852);
+color: white;
+}
+
+.cta-content h2 {
+margin: 0 0 15px;
+font-size: 36px;
+line-height: 1.2;
+font-weight: 800;
+color: #FFFFFF;
+}
+
+.cta-content p {
+margin: 0;
+color: #B8BBC7;
+font-size: 21px;
+line-height: 1.6;
+}
+
+.cta-button {
+flex-shrink: 0;
+height: 60px;
+width: 220px;
+border-radius: 15px;
+border: none;
+font-size: 17px;
+font-weight: 700;
+background: #2D55E2;
+color: #DCE7FD;
+}
+
 
 .site-footer {
     width: 100%;

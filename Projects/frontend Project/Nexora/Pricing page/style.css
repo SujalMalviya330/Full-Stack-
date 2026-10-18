@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -12,83 +10,63 @@ body {
     background: white;
 }
 
-
-header{
-    
-    align-items: center;
-    position: sticky;
-    top: 0%;
-    z-index: 99;
-    background: transparent;
-    transition: all 0.3s ease;
-    
-
+header {
+width: 100%;
+position: sticky;
+top: 0;
+z-index: 99;
+background: white;
 }
 
-/* header.scrolled{
-    background: white;
-} */
+#head {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 5%;
+background: white;
+gap: 25px;
+}
 
-
-#head{
-    display: flex;
-    justify-content: space-between;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 20px;
-    background: white;
-    padding: 20px 140px;
-    h2{
-        font-weight: 800;
-    }
-
-    
-    
+#head h2 {
+font-size: 28px;
+font-weight: 800;
+white-space: nowrap;
 }
 
 .head1 {
-    display: flex;
-    font-size: 20px;
-    gap: 20px;
-    
-    font-weight: 600;
-    text-decoration: none;
-    
-    align-items: center;
-    a{
-        text-decoration: none;
-        color: #987777;
-        
-        border: 2px solid transparent ;
-        padding:  10px 15px;
-        border-radius: 10px;
-        
-    }
-
-    h3{
-       margin-top: 10px;
-    }
-    
-    .getStart {
-        background: rgb(48, 48, 231);
-        color: white;
-        width: 155px;
-        height: 50px;
-        font-weight: 900;
-        border-radius: 12px;
-        font-size: 17px;
-        font-family: var(--n-font-display);
-    }
-
-}
-.head1 a:hover{
-    /* padding: 10px; */
-    
-    color: black;
-    border: 2px solid transparent ;
-    border-radius: 10px;
-    background: #F1F1FF;
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 15px;
+font-weight: 600;
 }
 
+.head1 a {
+text-decoration: none;
+color: #987777;
+padding: 10px 9px;
+border: 2px solid transparent;
+border-radius: 10px;
+white-space: nowrap;
+}
+
+.head1 a:hover {
+color: black;
+background: #F1F1FF;
+}
+
+.getStart {
+background: rgb(48, 48, 231);
+color: white;
+width: 135px;
+height: 48px;
+font-weight: 800;
+border-radius: 12px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
 
 
 .hero {
@@ -1462,8 +1440,3 @@ social-links {
 }
 
 /* ???????????????????????????????????????????? */
-
-
-
-
-
