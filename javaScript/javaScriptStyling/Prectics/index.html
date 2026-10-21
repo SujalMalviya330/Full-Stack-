@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="bulb" id="bulb1"></div>
-    <button onclick="b1ON()">bulb1 On</button>
-    <button onclick="b1OFF()">bulb1 off</button>
+    <!-- <div id="bulb1"></i></div>
+    <button onclick="ON()">Bulb ON</button>
+    <button onclick="OOF()">Bulb OFF</button> -->
 
-    <br /><br />
-    <div class="bulb" id="bulb2"></div>
-    <button onclick="b2ON_OFF()">Bulb2 on/off</button>
-    <br /><br />
-    <div class="bulb" id="bulb3"></div>
-    <input type="color" id="b3Color" onchange="b3ChangeColor()" />
-    <button onclick="b3Off()">off</button>
+    <div class="outer">
+      
+      <div class="btn">
+        <button onclick="ON()">show wallpaper</button>
+        <button onclick="OOF()">hide wallpaper</button>
+      </div>
+      <div id="bulb1">
+        <i class="bi bi-balloon-heart-fill" id="hard"></i>
+        <p class="pera">Rohit with <br>  _Aditi</p>
+        <button class="hard-btn" onclick="Show_hide()">Show / Hide</button>
+        
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>

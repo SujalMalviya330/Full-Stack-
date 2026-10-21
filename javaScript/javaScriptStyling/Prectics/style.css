@@ -1,13 +1,74 @@
-.bulb {
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  border: 1px solid #000;
+#bulb1{
+    
+    width: 1500px;
+    height: 1000px;
+    
+    border: 2px solid black;
+    P{
+        color: white;
+    }
+
+    
+}
+.outer{
+    position: relative;
+}
+.btn{
+        position: absolute;
+        top: 10%;
+        left: 46%;
+    }
+
+.b1{
+    /* background: rgb(216, 153, 199); */
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.j5NEoUwYVaTvLR4ztoR-2wHaEK?r=0&pid=Api&h=220&P=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.b1 {
-  background-color: yellow;
+
+.bi{
+    color: transparent;
+    font-size: 450px;
+    
+    position: absolute;
+    bottom: 27%;
+    left: 36%;
+
 }
-.b2 {
-  background-color: rgb(255, 0, 0);
+
+.hard-btn{
+    position: absolute;
+    bottom: 30%;
+    left: 49%;
+}
+
+.SH{
+    color: rgb(202, 41, 41);
+    transform: translateY(-70px);
+    transition: transform 3s;
+   
+    
+}
+
+.pera{
+    font-size: xx-large;
+    
+    font-style: italic;
+    position: absolute;
+    bottom: 63%;
+    left: 47%;
+
+}
+.P{
+    color: rgb(9, 112, 202);
+    transform: translateY(-90px);
+    transition: transform 1s;
+}
+
+button{
+    background: #ea73b4;
+    padding: 15px;
+    border-radius: 10px;
 }
