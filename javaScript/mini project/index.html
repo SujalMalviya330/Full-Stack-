@@ -31,7 +31,13 @@
             placeholder="Enter a new task........."
             class="form-control"
           />
-          <button class="btn btn-primary text-nowrap" id="addTask" onclick="addTask()">Add Task</button>
+          <button
+            class="btn btn-primary text-nowrap"
+            id="addTask"
+            onclick="addTask()"
+          >
+            Add Task
+          </button>
         </div>
       </section>
 
@@ -39,10 +45,14 @@
         <div class="container mt-3 p-4 border rounded shadow">
           <ol class="w-100" id="taskList">
             <!-- <li class="p-3 d-flex justify-content-between">
-              <span>Task</span>
-              <button class="btn btn-danger btn-sm">Delete</button>
-            </li>
-             -->
+              <div><input type="checkbox" class="me-3"><span>Task</span></div>
+              <div class="button">
+                <button class="btn btn-primary btn-sm">Edit</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+              </div>
+            </li> -->
+
+            
           </ol>
         </div>
       </section>
