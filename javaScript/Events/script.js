@@ -29,5 +29,20 @@ document.getElementById("move").addEventListener("mousemove",() =>{
     document.getElementById("move").innerText="mouse pointer is moveing over this text"
 })
 
+// ------------------------------
 
+document.getElementById("nameSubmit").addEventListener("click", () =>{
+    console.log(document.getElementById("fullName").value.trim());
+    
+});
+
+document.getElementById("fullName").addEventListener("keydown", (e) => {
+  e.key === "Enter" &&
+    console.log(document.getElementById("fullName").value.trim());
+});
+
+document.getElementById("LoginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Login Done");
+});
 

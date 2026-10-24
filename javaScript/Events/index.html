@@ -1,22 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
-</head>
-<body>
-    
-
+  </head>
+  <body>
     <button onclick="ShowAlert()">Click me</button>
-    <button id="clickButton" >Click me 2</button>
+    <button id="clickButton">Click me 2</button>
 
-    <br><br>
-    <div id="box">
-        This is box
-    </div>
+    <br /><br />
+    <div id="box">This is box</div>
 
-    <br><br>
+    <br /><br />
 
     <div id="paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illum
@@ -24,25 +20,36 @@
       animi, est obcaecati.
     </div>
 
-    <br><br>
+    <br /><br />
 
-    <div id="double">
-         double -click this paragraph
-    </div>
-    <br>
-    <div id="move">
-        move your mouse pver this text.
-    </div>
+    <div id="double">double -click this paragraph</div>
+    <br />
+    <div id="move">move your mouse pver this text.</div>
 
+    <hr />
+    <br />
 
-    <hr><br>
-
-    <input type="text" name="fullname" id="fullname">
+    <input type="text" name="fullName" id="fullName" />
     <button id="nameSubmit">Submit</button>
 
+    <hr />
+    <hr />
+    <hr />
+    <br />
+
+    <form id="LoginForm">
+      <input type="text" name="userName" id="userName" placeholder="UserName" />
+      <br /><br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="****************"
+      />
+      <br /><br />
+      <button>Login</button>
+    </form>
 
     <script src="script.js"></script>
-
-    
-</body>
+  </body>
 </html>

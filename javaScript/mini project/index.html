@@ -22,15 +22,16 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="section1">
         <div class="container mt-3 p-4 border rounded shadow d-flex gap-3">
           <input
-            type="text "
+            type="text"
             name="newTask"
             id="taskInput"
-            placeholder="Enter a new task........."
+            placeholder="Enter a new task..."
             class="form-control"
           />
+
           <button
             class="btn btn-primary text-nowrap"
             id="addTask"
@@ -41,19 +42,39 @@
         </div>
       </section>
 
-      <section>
+      <section class="section2">
         <div class="container mt-3 p-4 border rounded shadow">
-          <ol class="w-100" id="taskList">
-            <!-- <li class="p-3 d-flex justify-content-between">
-              <div><input type="checkbox" class="me-3"><span>Task</span></div>
-              <div class="button">
-                <button class="btn btn-primary btn-sm">Edit</button>
-                <button class="btn btn-danger btn-sm">Delete</button>
-              </div>
-            </li> -->
+          <div class="row border rounded m-0 w-100 fw-semibold" id="sec2Div">
+            <div class="col-4 text-center py-3 border-end">
+              <span class="fs-2 fw-semibold" id="totalTask">0</span>
 
-            
-          </ol>
+              <br />
+
+              Total Tasks
+            </div>
+
+            <div class="col-4 text-center py-3 border-end">
+              <span class="fs-2 fw-semibold text-success" id="complete">0</span>
+
+              <br />
+
+              Completed
+            </div>
+
+            <div class="col-4 text-center py-3">
+              <span class="fs-2 fw-semibold text-danger" id="pending">0</span>
+
+              <br />
+
+              Pending
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container mt-3 p-4 border rounded shadow">
+          <ol class="list-group list-group-numbered" id="taskList"></ol>
         </div>
       </section>
     </main>
