@@ -1,0 +1,44 @@
+/* <main>
+      <section class="section1">
+        <div class="container mt-3 p-4 border rounded shadow d-flex gap-3">
+          <input
+            type="text "
+            name="newTask"
+            id="taskInput"
+            placeholder="Enter a new task........."
+            class="form-control"
+          />
+          <button
+            class="btn btn-primary text-nowrap"
+            id="addTask"
+            onclick="addTask()"
+          >
+            Add Task
+          </button>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="container mt-3 p-4 border rounded shadow d-flex gap-3">
+          <div class="row border m-2 w-100 fw-semibold" id="sec2Div">
+            <div class="col-4 text-center"><span class="fs-2 fw-semibold" id="totalTask"></span> <br>Total Task</div>
+            <div class="col-4 text-center"><span class="fs-2 fw-semibold" id="complete">4</span> <br>Complete</div>
+            <div class="col-4 text-center"><span class="fs-2 fw-semibold" id="pending">4</span> <br> Panding</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container mt-3 p-4 border rounded shadow">
+          <ol class="w-100" id="taskList">
+            <!-- <li class="p-3 d-flex justify-content-between">
+              <div><input type="checkbox" class="me-3"><span>Task</span></div>
+              <div class="button">
+                <button class="btn btn-primary btn-sm">Edit</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+              </div>
+            </li> -->
+          </ol>
+        </div>
+      </section>
+    </main> */
