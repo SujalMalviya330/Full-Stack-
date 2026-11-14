@@ -48,3 +48,45 @@ studentForm.addEventListener("submit", (e)=>{
     }
 
 });
+
+// assingment-2
+const studentForm2 = document.getElementById("StudentForm2");
+
+studentForm2.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(StudentForm2);
+    const CourseCode = formData.get("courseCode");
+    const NumberCode = formData.get("nocode");
+    const Message = formData.get("message");
+
+    const CoursePettern = /^[A-Z]{3}$/;
+    const NumberPettern = /^[0-9]+$/;
+    const MessagePettern = /Course/i;
+
+    const isValidCousre = CoursePettern.test(CourseCode);
+    const isValidNumber = NumberPettern.test(NumberCode);
+    const isValidMessage = MessagePettern.test(Message);
+
+
+     if(isValidCousre){
+        console.log("Course code is valid");
+    }else{
+        console.log("Course code is invalid");
+    }
+
+    if(isValidNumber){
+        console.log("Number code is valid");
+    }else{
+        console.log("Number code is invalid");
+    }
+
+    if(isValidMessage){
+        console.log("message is valid");
+    }
+    else{
+        console.log("message is invalid");
+    }
+
+})
+
